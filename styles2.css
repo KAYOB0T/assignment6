@@ -1,0 +1,76 @@
+body {
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    
+}
+#mainContent {
+width: 900px;
+margin: 0 auto;
+text-align: left;
+padding: 0;
+height: 100%;
+}
+.section{
+    width: 400px;
+    float: left;
+    margin-right: 40px;
+    background-repeat: repeat;
+    position: relative;
+    height: 600px;
+    z-index: 2;
+}
+
+section.one.cycle-slideshow {
+    width: 400px;
+    float: left;
+    margin-right: 40px;
+    background-repeat: repeat;
+    position: relative;
+    height: 600px;
+
+}
+
+.section.one img {
+        max-width: 100%;
+        height: 600px;
+        border: 1px solid #ccc; 
+        border-radius: 8px; 
+      }
+
+
+
+section.two.cycle-slideshow {
+    width: 400px;
+    float: left;
+    margin-right: 40px;
+    background-repeat: repeat;
+    position: relative;
+    height: 600px;
+}
+.section.two img {
+    max-width: 100%;
+    height: 600px;
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+  }
+ 
+
+.overlay{
+    position: absolute;
+    top:500px;
+    width: 400px;
+    height: 50px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.5);
+    -webkit-transition: all 1s ease-in-out .2s;
+    -moz-transition: all 1s ease-in-out .2s;
+    -ms-transition: all 1s ease-in-out .2s;
+    -o-transition: all 1s ease-in-out .2s;
+    transition: all 1s ease-in-out .2s;
+    z-index: 100;
+}
+.overlay:hover {
+  height: 600px;
+  top: 0;
+  z-index: 100;
+}
